@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.grid-container{
+    border: 3px solid black ;
+    display: grid;
+    grid-template-columns:20% 20% 20% 20%;
+    grid-template-rows: auto;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+div{
+    background-color: beige;
+    margin: 10px;
+    border-radius: 5px;
+}
+.grid-item-2{
+    grid-column-start:2;
+    grid-column-end: 4;
+}

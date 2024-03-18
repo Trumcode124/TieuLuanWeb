@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+li{
+    font-size: 20px;
+    display: block;
+    transition: .5s;
+}
+ul:hover li{
+    filter: blur(5px);
+}
+ul li:hover{
+    filter: blur(0px);
+}
